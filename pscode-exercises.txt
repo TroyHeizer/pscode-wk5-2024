@@ -1,0 +1,137 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+
+Add numberA to numberB to get the sum of two numbers
+
+
+num1+num2 = numSum
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+
+If num is divisible by 2 with no remainder it is even
+
+Otherwise it is odd
+
+
+num
+
+num%2 = remainder
+
+If remainder ==0
+
+num is even
+
+else num is odd
+
+
+
+// Exercise 3: 
+
+Write pseudo code that will perform the following.    
+
+
+
+a) Read in 5 separate numbers.   
+
+b) Calculate the average of the five numbers.
+
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+
+d) Write out the results found from steps b and c with a message describing what they are
+
+
+
+a) num1 num2 num3 num4 num5
+
+
+
+b) add all the numbers together 
+
+and divide by 5 (qty of numbers) to get the average
+
+
+num1+num2+num3+num4+num5 = numsum
+
+numsum/5 = numavg
+
+
+
+
+
+c) compare all the numbers to each other to see if they are greater than or less than to determine the largest or smallest
+
+
+This would be for the largest
+
+
+if { Num1>Num2&&Num1>Num3&&Num1>Num4&&Num1>Num5
+
+     return({Num1} is the largest number!)
+
+     }
+
+  else  if { Num2>Num1&&Num2>Num3&&Num2>Num4&&Num2>Num5
+
+         return({Num2} is the largest Number!)
+
+  } 
+
+   else  if { Num3>Num1&&Num3>Num2&&Num3>Num4&&Num3>Num5
+
+         return({Num3} is the largest Number!)
+
+  } 
+
+  else  if { Num4>Num1&&Num4>Num2&&Num4>Num3&&Num4>Num5
+
+         return({Num4} is the largest Number!)
+
+  } 
+
+  else  if { Num5>Num1&&Num5>Num2&&Num5>Num3&&Num5>Num4
+
+         return({Num5} is the largest Number!)
+
+  } 
+
+
+
+This would be for the smallest
+
+
+
+if { Num1<Num2&&Num1<Num3&&Num1<Num4&&Num1<Num5
+
+     return({Num1} is the smallest number!)
+
+     }
+
+  else  if { Num2<Num1&&Num2<Num3&&Num2<Num4&&Num2<Num5
+
+         return({Num2} is the smallest Number!)
+
+  } 
+
+   else  if { Num3<Num1&&Num3<Num2&&Num3<Num4&&Num3<Num5
+
+         return({Num3} is the smallest Number!)
+
+  } 
+
+  else  if { Num4<Num1&&Num4<Num2&&Num4<Num3&&Num4<Num5
+
+         return({Num4} is the smallest Number!)
+
+  } 
+
+  else  if { Num5<Num1&&Num5<Num2&&Num5<Num3&&Num5<Num4
+
+         return({Num5} is the smallest  Number!)
+
+  } 
+
+
+
+-- END --
